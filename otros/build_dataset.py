@@ -1,3 +1,5 @@
+#This code is only for testing run dataset.py for the complete pipeline.
+
 from pathlib import Path
 import pandas as pd
 import shutil
@@ -102,7 +104,7 @@ print(f"⚠ Imágenes LiDAR faltantes: {missing_lidar}")
 OUTPUT_DIR.mkdir(exist_ok=True)
 data.to_csv(GLOBAL_CSV_PATH, index=False)
 
-print("✅ Dataset final creado correctamente")
-print(f"📄 CSV: {GLOBAL_CSV_PATH}")
-print(f"🖼 RGB: {IMAGES_OUT}")
-print(f"📡 LiDAR: {LIDAR_OUT}")
+print(" Dataset final creado correctamente")
+print(f" CSV: {GLOBAL_CSV_PATH}")
+print(f" RGB: {IMAGES_OUT}")
+print(f" LiDAR: {LIDAR_OUT}")

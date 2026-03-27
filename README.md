@@ -1,16 +1,19 @@
 # AutonomousDriving-Code
-Scripts developed for CNN-vs-ViT-in-Autonomous-Driving-Analysis
+Scripts developed for CNN-vs-ViT-in-Autonomous-Driving-Analysis.
+This is a pipeline designed to merge different sessions into a single large dataset to train CNN and ViT architectures for autonomous driving tasks.
+For full documentation and results obtained 
 
+## Quick Start (Summary)
+Ingestion: Merge raw sessions from data_logs via dataset.py.
+Data Integrity: Run deduplicate_dataset, clean_dataset, and validate_dataset.
+Preprocessing: Apply rgb, sobel, or hsv filters in the preprocess/ folder.
+Benchmarking: Train and compare models using train.py (CNN) or vis-transformer.py (ViT).
 
-## Project Description
+## Project Description (General)
 
 1) Project root is the main directory from which the scripts are run. Make sure that when you download it, you place everything inside it to be able to follow this work.
 
 2) data_logs contains all the directories with the information collected from the autonomous vehicle. (In case of creating the CSV for the first time, place all the folders from which the information will be extracted to create the global dataset in the "robot" folder).
-
-Run the script dataset.py to join all sessions into a single dataset.
-
-```python -m dataset.py```
 
 data_logs folder: where you put all the files extracted from the robot.
 
@@ -41,7 +44,11 @@ Place all folders in data_logs to create the working directories in the /robot d
         |- images
         |- lidar_images
         |- csv
-        
+
+Run the script dataset.py to join all sessions into a single dataset.
+
+```python -m dataset.py```
+
 **1.5) If you want to add only a new dataset. Place the folder in the directory /agregar_datasets with the following structure:**
 
 /agregar_datasets

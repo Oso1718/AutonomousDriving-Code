@@ -1,7 +1,3 @@
-# This file may be used to create an environment using:
-# $ conda create --name <env> --file <this file>
-# platform: win-64
-# created-by: conda 25.5.1
 numpy==1.26.4
 pandas==2.2.3
 opencv-python==4.10.0.84

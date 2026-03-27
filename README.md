@@ -6,10 +6,11 @@ For full documentation and results obtained check: [CNN-vs-ViT-in-Autonomous-Dri
 
 
 ## Quick Start (Summary)
-Ingestion: Merge raw sessions from data_logs via dataset.py.
-Data Integrity: Run deduplicate_dataset, clean_dataset, and validate_dataset.
-Preprocessing: Apply rgb, sobel, or hsv filters in the preprocess/ folder.
-Benchmarking: Train and compare models using train.py (CNN) or vis-transformer.py (ViT).
+
+1) Ingestion: Merge raw sessions from data_logs via dataset.py.
+2) Data Integrity: Run deduplicate_dataset, clean_dataset, and validate_dataset.
+3) Preprocessing: Apply rgb, sobel, or hsv filters in the preprocess/ folder.
+4) Benchmarking: Train and compare models using train.py (CNN) or vis-transformer.py (ViT).
 
 ## Project Description (General)
 

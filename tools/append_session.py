@@ -1,4 +1,4 @@
-# Este script permite agregar nuevas sesiones de datos a un dataset existente.
+# 1.5 Este script permite agregar nuevas sesiones de datos a un dataset existente.
 
 from pathlib import Path
 import pandas as pd

@@ -1,7 +1,9 @@
 # AutonomousDriving-Code
 Scripts developed for CNN-vs-ViT-in-Autonomous-Driving-Analysis.
 This is a pipeline designed to merge different sessions into a single large dataset to train CNN and ViT architectures for autonomous driving tasks.
-For full documentation and results obtained 
+For full documentation and results obtained check: [CNN-vs-ViT-in-Autonomous-Driving-Analysis](https://github.com/Oso1718/CNN-vs-ViT-in-Autonomous-Driving-Analysis).
+
+
 
 ## Quick Start (Summary)
 Ingestion: Merge raw sessions from data_logs via dataset.py.
